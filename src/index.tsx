@@ -11,9 +11,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <LeonTheme>
-      <App />
-    </LeonTheme>
+    <LeonTheme component={App} />
   </React.StrictMode>
 );
 
