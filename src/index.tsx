@@ -4,19 +4,26 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-import { LeonTheme, Button as LeonButton } from "leon-theme";
+import { LeonTheme } from "leon-theme";
+import { ThemeProvider } from "styled-components";
 
 const theme = {
-  main: "green",
+  borderRadius: "30px",
+  colors: {
+    main: "yellow",
+    secondary: "purple",
+  },
 };
 
+{
+  /* <ThemeProvider theme={theme}> */
+}
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
     <LeonTheme component={App} theme={theme} />
-    <LeonButton label="hello" />
   </React.StrictMode>
 );
 
