@@ -5,19 +5,13 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 import { LeonTheme } from "leon-theme";
-import { ThemeProvider } from "styled-components";
 
 const theme = {
   borderRadius: "30px",
-  colors: {
-    main: "yellow",
-    secondary: "purple",
-  },
+  color: "yellow",
+  backgroundColor: "purple",
 };
 
-{
-  /* <ThemeProvider theme={theme}> */
-}
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
