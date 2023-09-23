@@ -7,7 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 import { LeonTheme } from "leon-theme";
 
 const theme = {
-  borderRadius: "30px",
+  borderRadius: "10px",
   color: "yellow",
   backgroundColor: "purple",
 };
