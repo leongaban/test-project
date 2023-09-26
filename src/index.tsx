@@ -7,9 +7,9 @@ import reportWebVitals from "./reportWebVitals";
 import { LeonTheme } from "leon-theme";
 
 const theme = {
-  borderRadius: "10px",
   color: "yellow",
-  backgroundColor: "purple",
+  borderRadius: "10px",
+  backgroundColor: "green",
 };
 
 const root = ReactDOM.createRoot(
